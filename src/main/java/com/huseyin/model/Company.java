@@ -9,7 +9,7 @@ import jakarta.persistence.Column;
 
 
 @Entity
-@Table(name = "SIRKETLER", schema = "public")
+@Table(name = "\"SIRKETLER\"", schema = "public")
 public class Company {
 
     @Id
