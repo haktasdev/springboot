@@ -12,6 +12,7 @@ import jakarta.persistence.Column;
 @Table(name = "deneme") // Tırnakları kaldırın
 public class Company {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
