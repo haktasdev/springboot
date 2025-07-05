@@ -9,7 +9,7 @@ import jakarta.persistence.Column;
 
 
 @Entity
-@Table(name = "SIRKETLER") // Tırnakları kaldırın
+@Table(name = "deneme") // Tırnakları kaldırın
 public class Company {
 
     @Id
